@@ -1,0 +1,240 @@
+ERROR - 2021-10-30 03:11:45 --> Error connecting to the database: Unknown database 'demo'
+CRITICAL - 2021-10-30 03:11:45 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'demo'
+#0 C:\xampp\htdocs\alumni_chet\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\alumni_chet\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\alumni_chet\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\alumni_chet\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\alumni_chet\app\Controllers\Search.php(18): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(928): App\Controllers\Search->showUser()
+#6 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#7 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alumni_chet\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\alumni_chet\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2021-10-30 03:11:48 --> Error connecting to the database: Unknown database 'demo'
+CRITICAL - 2021-10-30 03:11:48 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'demo'
+#0 C:\xampp\htdocs\alumni_chet\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\alumni_chet\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\alumni_chet\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\alumni_chet\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\alumni_chet\app\Controllers\Search.php(18): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(928): App\Controllers\Search->showUser()
+#6 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#7 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alumni_chet\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\alumni_chet\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2021-10-30 03:11:59 --> Error connecting to the database: Unknown database 'demo'
+CRITICAL - 2021-10-30 03:11:59 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'demo'
+#0 C:\xampp\htdocs\alumni_chet\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\alumni_chet\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\alumni_chet\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\alumni_chet\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\alumni_chet\app\Controllers\Search.php(18): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(928): App\Controllers\Search->showUser()
+#6 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#7 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alumni_chet\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\alumni_chet\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2021-10-30 03:12:31 --> Error connecting to the database: Unknown database 'demo'
+CRITICAL - 2021-10-30 03:12:31 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'demo'
+#0 C:\xampp\htdocs\alumni_chet\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\alumni_chet\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\alumni_chet\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\alumni_chet\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\alumni_chet\app\Controllers\Search.php(18): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(928): App\Controllers\Search->showUser()
+#6 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#7 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alumni_chet\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\alumni_chet\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2021-10-30 03:12:39 --> Error connecting to the database: Unknown database 'demo'
+CRITICAL - 2021-10-30 03:12:39 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'demo'
+#0 C:\xampp\htdocs\alumni_chet\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\alumni_chet\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\alumni_chet\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\alumni_chet\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\alumni_chet\app\Controllers\Search.php(18): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(928): App\Controllers\Search->showUser()
+#6 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#7 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\alumni_chet\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\alumni_chet\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2021-10-30 03:13:09 --> Table 'alumni.datauser' doesn't exist
+CRITICAL - 2021-10-30 03:13:09 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\alumni_chet\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\alumni_chet\app\Controllers\Search.php(18): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(928): App\Controllers\Search->showUser()
+#3 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\alumni_chet\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\alumni_chet\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2021-10-30 03:13:09 --> Table 'alumni.datauser' doesn't exist
+CRITICAL - 2021-10-30 03:13:09 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\alumni_chet\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\alumni_chet\app\Controllers\Search.php(18): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(928): App\Controllers\Search->showUser()
+#3 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\alumni_chet\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\alumni_chet\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2021-10-30 03:13:10 --> Table 'alumni.datauser' doesn't exist
+CRITICAL - 2021-10-30 03:13:10 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\alumni_chet\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\alumni_chet\app\Controllers\Search.php(18): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(928): App\Controllers\Search->showUser()
+#3 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\alumni_chet\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\alumni_chet\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2021-10-30 03:13:10 --> Table 'alumni.datauser' doesn't exist
+CRITICAL - 2021-10-30 03:13:10 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\alumni_chet\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\alumni_chet\app\Controllers\Search.php(18): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(928): App\Controllers\Search->showUser()
+#3 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\alumni_chet\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\alumni_chet\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2021-10-30 03:13:10 --> Table 'alumni.datauser' doesn't exist
+CRITICAL - 2021-10-30 03:13:10 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\alumni_chet\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\alumni_chet\app\Controllers\Search.php(18): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(928): App\Controllers\Search->showUser()
+#3 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\alumni_chet\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\alumni_chet\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2021-10-30 03:13:10 --> Table 'alumni.datauser' doesn't exist
+CRITICAL - 2021-10-30 03:13:10 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\alumni_chet\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\alumni_chet\app\Controllers\Search.php(18): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(928): App\Controllers\Search->showUser()
+#3 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\alumni_chet\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\alumni_chet\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2021-10-30 03:13:15 --> Table 'alumni.datauser' doesn't exist
+CRITICAL - 2021-10-30 03:13:15 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\alumni_chet\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\alumni_chet\app\Controllers\Search.php(18): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(928): App\Controllers\Search->showUser()
+#3 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\alumni_chet\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\alumni_chet\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2021-10-30 03:13:58 --> Table 'alumni.datauser' doesn't exist
+CRITICAL - 2021-10-30 03:13:58 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\alumni_chet\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\alumni_chet\app\Controllers\Search.php(18): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(928): App\Controllers\Search->showUser()
+#3 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\alumni_chet\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\alumni_chet\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2021-10-30 03:14:11 --> Table 'alumni.datauser' doesn't exist
+CRITICAL - 2021-10-30 03:14:11 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\alumni_chet\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\alumni_chet\app\Controllers\Search.php(18): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(928): App\Controllers\Search->showUser()
+#3 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\alumni_chet\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\alumni_chet\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2021-10-30 03:14:12 --> Table 'alumni.datauser' doesn't exist
+CRITICAL - 2021-10-30 03:14:12 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\alumni_chet\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\alumni_chet\app\Controllers\Search.php(18): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(928): App\Controllers\Search->showUser()
+#3 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\alumni_chet\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\alumni_chet\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2021-10-30 03:14:13 --> Table 'alumni.datauser' doesn't exist
+CRITICAL - 2021-10-30 03:14:13 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\alumni_chet\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\alumni_chet\app\Controllers\Search.php(18): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(928): App\Controllers\Search->showUser()
+#3 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\alumni_chet\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\alumni_chet\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2021-10-30 03:19:03 --> Table 'alumni.datauser' doesn't exist
+CRITICAL - 2021-10-30 03:19:03 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\alumni_chet\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\alumni_chet\app\Controllers\Search.php(18): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(928): App\Controllers\Search->showUser()
+#3 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\alumni_chet\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\alumni_chet\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2021-10-30 03:19:05 --> Table 'alumni.datauser' doesn't exist
+CRITICAL - 2021-10-30 03:19:05 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\alumni_chet\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\alumni_chet\app\Controllers\Search.php(18): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(928): App\Controllers\Search->showUser()
+#3 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\alumni_chet\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\alumni_chet\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2021-10-30 03:19:05 --> Table 'alumni.datauser' doesn't exist
+CRITICAL - 2021-10-30 03:19:05 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\alumni_chet\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\alumni_chet\app\Controllers\Search.php(18): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(928): App\Controllers\Search->showUser()
+#3 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\alumni_chet\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\alumni_chet\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2021-10-30 03:19:10 --> Table 'alumni.datauser' doesn't exist
+CRITICAL - 2021-10-30 03:19:10 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\alumni_chet\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\alumni_chet\app\Controllers\Search.php(18): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(928): App\Controllers\Search->showUser()
+#3 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\alumni_chet\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\alumni_chet\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2021-10-30 05:30:21 --> Table 'alumni.datauser' doesn't exist
+CRITICAL - 2021-10-30 05:30:21 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\alumni_chet\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\alumni_chet\app\Controllers\Search.php(18): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(928): App\Controllers\Search->showUser()
+#3 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\alumni_chet\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\alumni_chet\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2021-10-30 05:30:29 --> Table 'alumni.datauser' doesn't exist
+CRITICAL - 2021-10-30 05:30:29 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\alumni_chet\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\alumni_chet\app\Controllers\Search.php(18): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(928): App\Controllers\Search->showUser()
+#3 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Search))
+#4 C:\xampp\htdocs\alumni_chet\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\alumni_chet\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\alumni_chet\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
